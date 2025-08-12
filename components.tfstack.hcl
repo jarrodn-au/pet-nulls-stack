@@ -9,6 +9,10 @@ variable "instances" {
   type = number
 }
 
+variable "foo" {
+  type = string
+}
+
 required_providers {
   random = {
     source  = "hashicorp/random"
